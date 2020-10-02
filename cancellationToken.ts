@@ -21,6 +21,12 @@ interface ServerCancellationToken {
 	/*
 	test
 	*/
+	/*
+	* test2
+	*/
+	/**
+	* test23
+	**/
     isCancellationRequested(): boolean;
     setRequest(requestId: number): void;
     resetRequest(requestId: number): void;
