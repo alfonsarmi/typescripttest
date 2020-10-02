@@ -15,12 +15,19 @@ class Greeter {
 import fs = require("fs");
 
 interface ServerCancellationToken {
+	/* holi
+	que hase
+	test */
+	/*
+	test
+	*/
     isCancellationRequested(): boolean;
     setRequest(requestId: number): void;
     resetRequest(requestId: number): void;
 }
 
 function pipeExists(name: string): boolean {
+	
     // Unlike statSync, existsSync doesn't throw an exception if the target doesn't exist.
     // A comment in the node code suggests they're stuck with that decision for back compat
     // (https://github.com/nodejs/node/blob/9da241b600182a9ff400f6efc24f11a6303c27f7/lib/fs.js#L222).
